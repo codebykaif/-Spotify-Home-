@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Funnel Display", sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    margin-right:  10px;
+    background-color: #0a0909;
+}
+.sidebar{
+    margin-right: 5px;
+    background-color: black;
+    width: 24%;
+    border: 16px;
+    margin-right: 10px;
+    
+}
+.navbar{
+    color: white;
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    background-color: rgb(32, 29, 36);
+    border-radius: 0 0 10px 10px;
+}
+.home{
+    padding-left: 30px ;
+    padding-top: 0px;
+}
+.home:hover{
+    opacity: 0.70;
+}
+.search{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.search:hover{
+    opacity: 0.70;
+}
+.library{
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 29, 36);
+    align-items: center;
+}
+.yr-libr{
+    margin-left: 0;
+}
+.yr-libr:hover{
+    opacity: 0.70;
+}
+.yr-yero i:hover{
+    opacity: 0.70;
+}
+.first-playlist{
+    width: 100%;
+    height: 130px;
+    color: white;
+    background-color: rgb(58, 54, 62);
+    padding-top: 4px;
+    border-radius: 12px;
+    opacity: 0.80;
+    margin: 1px auto;
+    margin-top: 5px;
+}
+.first-playlist h3 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.first{
+    margin-left: 30px;
+}
+ .badge{
+    width: 120px;
+    opacity: 1;
+    height: 32px;
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px  auto;
+    border: none;
+    border-radius: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.dark-badge{
+    background-color: #000;
+    color: white;
+    width: 120px;
+    height: 32px;
+
+}
+.dark-badge i{
+    font-size: 15px;
+    
+    align-items: center;
+}
+.badge:hover{
+    opacity: 0.70;
+}
+.lets-fint{
+    margin-top: 10px;
+}
+.main-content{
+    flex: 1;
+    background-color:  rgb(50, 47, 53);
+    opacity: 0.90;
+    overflow: auto;
+}
+.sticky-nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 60px;
+    
+}
+.nav-icon-option i{
+    font-size: 15px;
+    margin-left: 15px;
+    
+}
+.nav-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 35px;
+}
+.music-player{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 62px;
+}
