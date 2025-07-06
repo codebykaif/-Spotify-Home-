@@ -9,10 +9,11 @@ body{
     height: 100vh;
     margin-right:  10px;
     background-color: #0a0909;
+    color: white;
 }
 .sidebar{
     margin-right: 5px;
-    background-color: black;
+    background-color: #1a1a1d;
     width: 24%;
     border: 16px;
     margin-right: 10px;
@@ -96,8 +97,7 @@ body{
     background-color: #000;
     color: white;
     width: 120px;
-    height: 32px;
-
+    height: 32pxmypro;
 }
 .dark-badge i{
     font-size: 15px;
@@ -112,9 +112,57 @@ body{
 }
 .main-content{
     flex: 1;
-    background-color:  rgb(50, 47, 53);
+    background-color:  #2e2e35;
     opacity: 0.90;
     overflow: auto;
+}
+.cards{
+    margin-left: 25px;
+}
+
+.cards h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    opacity: 0.90;
+    margin-left: 15px
+}
+.card{
+    background-color: #42414b;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    margin: 10px auto;
+    width: 180px;
+    height: 285px;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-recent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 700px;
+}
+.recent-music{
+    margin-left: 100px;
+    position: absolute;
+}
+
+.card-img{
+    width: 180px;
+    height: 180PX;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-hover:hover{
+    border-radius: 8px;
+    cursor: pointer;
+    background-color:#464451;
 }
 .sticky-nav{
     display: flex;
@@ -125,11 +173,14 @@ body{
     height: 60px;
     
 }
-.nav-icon-option i{
-    font-size: 15px;
-    margin-left: 15px;
+.nav-icon-option {
+    font-size: 30px;
+    margin-left: 25px;
+    font-weight: 700;
     
 }
+
+
 .nav-option {
     display: flex;
     justify-content: center;
@@ -139,9 +190,45 @@ body{
     margin-right: 35px;
 }
 .music-player{
-    background-color: aqua;
+    background-color: #151516;
     position: fixed;
     bottom: 0;
     width: 100vw;
     height: 62px;
+}
+.add-to-fvrt{
+    display: flex;
+
+}
+.footer-img img{
+    width: 62px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.footer-title{
+    margin-left: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+.music-control i{
+   margin: 25px;
+   margin-top: 15px;
+}
+.music-rang{
+    display: flex;
+    margin-left: 500px;
+    margin-top:-65px ;
 }
