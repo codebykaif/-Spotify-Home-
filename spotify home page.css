@@ -223,12 +223,51 @@ body{
     margin-left: 230px;
     margin-top: -30px;
 }
+.music-control{
+    margin: 5px ;
+    padding: 2px;
+}
 .music-control i{
    margin: 25px;
    margin-top: 15px;
+   size: 20px;
+}
+.music-control i:hover{
+    opacity: 0.60;
 }
 .music-rang{
     display: flex;
     margin-left: 500px;
-    margin-top:-65px ;
+    margin-top:-75px ;
+    padding: 10px;
+    margin-bottom: -5px;
+}
+.music-control input{
+    width: 75%;
+    height: 0.50px;
+    padding-bottom: 8px;
+    appearance: none;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;   
+}
+.control-system{
+    display: flex;
+    margin-left: 980px;
+    margin-top:-77px ;
+    padding: 10px;
+    margin-bottom: -5px;
+
+}
+.control-unit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 300px;
+}
+.control-unit input[type="range"]{
+    background-color: white;
+}
+.control-unit input[type="range"]::-webkit-slider-runnable-track{
+    bac
 }
